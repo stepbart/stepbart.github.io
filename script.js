@@ -183,7 +183,7 @@ $(document).ready(function() {
          url: requestUrl,
          method: 'POST',
          processData: false,
-         contentType: "application/json",
+         contentType: "application/json; charset=utf-8",
          dataType: 'json',
          data: JSON.stringify({
          name: relatedTask.title,
